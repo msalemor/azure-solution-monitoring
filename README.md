@@ -1,0 +1,1 @@
+# azure-solution-monitoring
