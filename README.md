@@ -6,7 +6,7 @@ Is is difficult to respond to a service outage or performance degradation issues
 
 ## Objective of a monitoring strategy
 
-Be able to quickly respond to service outage and performance degradation issues by having a strategy to perform investigation/root cause analysis and respond to outage.
+Quickly respond to a service outage or performance degradation issues by having a strategy that allows for a faster investigation/root cause analysis and processes to respond to the outage based on the findings.
 
 ## Using Dashboards vs Alerts
 
