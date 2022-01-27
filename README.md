@@ -1,12 +1,16 @@
-# azure-solution-monitoring
+# Azure Monitoring Strategy
 
 ## Problem statement
 
-Is is difficult to respond to a service outage becase it is difficult to locate, corralate, debug and deploy fix  solution in the form of service being down and service degradation. These problems may occur when the solution is not being monitored. Dashboard is usefult to have the information handy once there's an alert for an issue.
+Is is difficult to respond to a service outage or performance degradation. These problems usually occur at time when the solution is not actively being monitored.
 
 ## Objective of a monitoring strategy
 
-Have a strategy to perform root cause analysis, deploy a fix, raise a support ticket, etc. 
+Be able to quickly respond to service outage issues by being able to have handy all the information that may be needed to perform the outage investation and eventually respond to the outage.
+
+## Using Dashboards vs Alerts
+
+Alerts constantly monitor the health of the systems and raise notification when issues are discoverd. Dashboards are usefult to have all the information handy in one place handy once alerts have been raised. 
 
 ## Topdown monitor strategy
 
@@ -22,8 +26,7 @@ Have a strategy to perform root cause analysis, deploy a fix, raise a support ti
   - Custom events
   - Traces
 
-
-## Ideal solution including self healing
+## Resiliency and self healing
 
 Examples:
 - Review resiliency in architecture
