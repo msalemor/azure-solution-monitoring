@@ -2,7 +2,7 @@
 
 ## Problem statement
 
-Is is difficult to respond to a service outage or performance degradation. These problems usually occur at time when the solution is not actively being monitored.
+Is is difficult to respond to a service outage or performance degradation issues. Logs and Matrics may be located in service metrics and logs, Log Analytics Workspaces, and Insights Workspaces. These problems usually occur at time when the solution is not actively being monitored. It is difficult to cooralate issues particularly issues related to dependent services.
 
 ## Objective of a monitoring strategy
 
