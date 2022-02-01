@@ -10,12 +10,12 @@ Quickly respond to a service outage or performance degradation issues by having 
 
 ## Using Dashboards vs Alerts
 
-Alerts constantly monitor the health of the systems and raise notification when issues are discoverd. Dashboards are usefult to have all the information handy in one place handy once alerts have been raised. 
+Alerts constantly monitor the health of the systems and raise notification when issues are discoverd. Dashboards can help to quickly get health status of all running systems and help correlate service events. 
 
 ## Topdown monitor strategy
 
 - Azure Services Health
-- Depender Service Health (CPU utilization, Memory utilization, Data utlization, HD Storage)
+- Dependent Service Health (CPU utilization, Memory utilization, Data utlization, HD Storage)
 - Application Health with Application Insights
   - Availability
   - 5XX
@@ -37,16 +37,3 @@ Examples:
 - Use CI/CD pipelines to deploy hotfixes
 - Build a KB of issues and fixes
 
-## Using Log Diagnostics
-
-- Enable sending activity log and metrics to a log analytics workspace if the data is needed more than X days. Otherwise, all telemtry is available for the last 7 days.
-
-## Implementation
-
-### Azure Service Health
-
-- Create an alert service health issues for the subscription, global services and all Azure Services in your solution
-
-### Dependent Service Health
-
-### Application Health with Application Insihgts
