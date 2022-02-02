@@ -30,14 +30,18 @@ Alerts constantly monitor the health of the systems and raise notification when 
   - Custom events
   - Traces
 
-## Resiliency and self healing
+## Consider your resiliency
 
-Examples:
 - Review resiliency in architecture
-- Fail to a secondary region automatically or be ready to failover manually
+  - Fail to a secondary region automatically or be ready to failover manually
 - Have resilient application architectures, for example:
-  - Save data to queues instead of database
+  - Save data to queues instead of database in case of database outage
+  - Use eventual consistency and decoupling
+  - Include retry logic
+
+## Have troubleshooting/root cause plan
+
 - Have a process to perform root cause analysis
 - Use CI/CD pipelines to deploy hotfixes
 - Build a KB of issues and fixes
-
+- Incorporate learnings into the overall strategy
