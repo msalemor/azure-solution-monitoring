@@ -19,7 +19,7 @@ Alerts constantly monitor the health of the systems and raise notification when 
 ## Topdown monitor strategy
 
 - Azure Services Health
-- Dependent Service Health (CPU utilization, Memory utilization, Data utlization, HD Storage,etc.)
+- Dependent Services health (CPU utilization, Memory utilization, Data utlization, HD Storage,etc.)
   - Rember global services such as AAD
   - And even services such as ExpressRoute, really any service that has an SLA
   - Consider resilincy of on-prem app if there are hard dependencies from on-prem
