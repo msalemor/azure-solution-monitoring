@@ -19,16 +19,19 @@ Alerts constantly monitor the health of the systems and raise notification when 
 ## Topdown monitor strategy
 
 - Azure Services Health
-- Dependent Service Health (CPU utilization, Memory utilization, Data utlization, HD Storage)
+- Dependent Service Health (CPU utilization, Memory utilization, Data utlization, HD Storage,etc.)
+  - Rember global services such as AAD
+  - And even services such as ExpressRoute, really any service that has an SLA
+  - Consider resilincy of on-prem app if there are hard dependencies from on-prem
 - Application Health with Application Insights
   - Availability
   - 5XX
   - 4XX; particularly login failures and not founds
   - Failed Dependemy calls
-  - Performance degradation (not meeting NFRs)
-  - Exceptions
+  - Performance degradation (not meeting your NFRs)
+  - Exceptions types and counts
   - Custom events
-  - Traces
+  - Traces (is the exception information in the traces, extract it via KQL)
 
 ## Consider your resiliency
 
