@@ -32,15 +32,21 @@ Alerts constantly monitor the health of the systems and raise notification when 
   - Exceptions types and counts
   - Custom events
   - Traces (is the exception information in the traces, extract it via KQL)
+- Security
+  - Analyze infrastructure security by using Microsoft Defender for Cloud
+  - Analyze enterprise security by using Microsoft Sentinel
 
 ## Consider your resiliency
 
-- Review resiliency in architecture
+- Review architecture and services resiliency
+  - Operate in two or more regions (active-active)
   - Fail to a secondary region automatically or be ready to failover manually
+  - Choose zone available services
 - Have resilient application architectures, for example:
   - Save data to queues instead of database in case of database outage
-  - Use eventual consistency and decoupling
-  - Include retry logic
+  - Use eventual consistency and decouple your components
+  - Include retry logic in your dependency calls
+    - 429s in Cosmos DB, for example
 
 ## Have troubleshooting/root cause analysis plan
 
