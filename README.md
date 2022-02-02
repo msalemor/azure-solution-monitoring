@@ -23,7 +23,7 @@ Alerts constantly monitor the health of the systems and raise notification when 
   - Rember global services such as AAD
   - And even services such as ExpressRoute, really any service that has an SLA
   - Consider resilincy of on-prem app if there are hard dependencies from on-prem
-- Application Health with Application Insights
+- Application (batch, console, MVC, API, Azure Function, javascript frontend, etc.) health with Application Insights
   - Availability
   - 5XX
   - 4XX; particularly login failures and not founds
