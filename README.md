@@ -1,4 +1,4 @@
-# Azure Monitoring Strategy
+# Cloud Monitoring Strategy
 
 ## Reference Guides
 
