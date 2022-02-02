@@ -39,9 +39,9 @@ Alerts constantly monitor the health of the systems and raise notification when 
   - Use eventual consistency and decoupling
   - Include retry logic
 
-## Have troubleshooting/root cause plan
+## Have troubleshooting/root cause analysis plan
 
 - Have a process to perform root cause analysis
 - Use CI/CD pipelines to deploy hotfixes
 - Build a KB of issues and fixes
-- Incorporate learnings into the overall strategy
+- Have a retrospective and incorporate learnings into the overall strategy
