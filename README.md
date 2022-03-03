@@ -35,6 +35,7 @@ Alerts constantly monitor the health of the systems and raise notification when 
 - Security
   - Analyze infrastructure security by using Microsoft Defender for Cloud
   - Analyze enterprise security by using Microsoft Sentinel
+  - Analyze your activing logs for unusal activity
 
 ## Consider your resiliency
 
